@@ -1,0 +1,6 @@
+@echo off
+title Compiling MQII Screen Saver
+echo Compiling MQII Screen Saver.scr...
+\Windows\Microsoft.NET\Framework\v4.0.30319\csc /nologo /out:"MQII Screen Saver.scr" /t:winexe /win32icon:MQII.ico /res:Stars.png /res:Background.png *.cs
+echo Completing Process...
+pause
